@@ -1,0 +1,29 @@
+{
+  "name": "mahiru-music-bot",
+  "version": "1.0.0",
+  "description": "nothing there~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongnha28/Mahiru-music-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/truongnha28/Mahiru-music-bot/issues"
+  },
+  "homepage": "https://github.com/truongnha28/Mahiru-music-bot#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "ffmpeg-static": "^5.3.0",
+    "prism-media": "^1.3.5",
+    "sodium-native": "^5.1.0"
+  }
+}
