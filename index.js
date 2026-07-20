@@ -1,3 +1,15 @@
+const http = require("http");
+
+// Tạo server HTTP đơn giản để Render không kiểm tra lỗi Port
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end("Mahiru Bot is alive!");
+});
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Web server ngầm đang chạy tại port ${PORT}`);
+});
 require("dotenv").config();
 const path = require("path");
 const fs = require("fs");
