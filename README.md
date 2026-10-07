@@ -1,2 +1,2 @@
 # Mahiru-music-bot
-nothing there~
+Fill out all api, token,... in file .evn with yours
